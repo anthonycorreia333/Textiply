@@ -28,17 +28,7 @@ namespace Textiply.Api.Infrastructure
                         .WithRequired(audience => audience.User)
                         .HasForeignKey(audience => audience.UserId);
 
-
-
-
-            // 1 user has many messages
-            modelBuilder.Entity<User>()
-                        .HasMany(user => user.Messages)
-                        .WithRequired(message => message.User)
-                        .HasForeignKey(message => message.UserId);
                         
-
-
 
             // 1 audience has many messages
             modelBuilder.Entity<Audience>()

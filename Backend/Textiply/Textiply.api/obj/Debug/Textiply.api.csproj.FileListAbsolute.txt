@@ -62,9 +62,8 @@ C:\Dev\GitHub\Text\Backend\Textiply\Textiply.api\bin\Newtonsoft.Json.xml
 C:\Dev\GitHub\Text\Backend\Textiply\Textiply.api\bin\System.Net.Http.Formatting.xml
 C:\Dev\GitHub\Text\Backend\Textiply\Textiply.api\bin\System.Web.Http.xml
 C:\Dev\GitHub\Text\Backend\Textiply\Textiply.api\bin\System.Web.Http.WebHost.xml
-C:\Dev\GitHub\Text\Backend\Textiply\Textiply.api\obj\Debug\Textiply.api.csprojResolveAssemblyReference.cache
+C:\Dev\GitHub\Text\Backend\Textiply\Textiply.api\obj\Debug\Textiply.Api.Migrations.InitialMigration.resources
+C:\Dev\GitHub\Text\Backend\Textiply\Textiply.api\obj\Debug\Textiply.Api.Migrations.DataContextCreated.resources
+C:\Dev\GitHub\Text\Backend\Textiply\Textiply.api\obj\Debug\Textiply.api.csproj.GenerateResource.Cache
 C:\Dev\GitHub\Text\Backend\Textiply\Textiply.api\obj\Debug\Textiply.api.dll
 C:\Dev\GitHub\Text\Backend\Textiply\Textiply.api\obj\Debug\Textiply.api.pdb
-C:\Dev\GitHub\Text\Backend\Textiply\Textiply.api\obj\Debug\Textiply.api.Migrations.InitialMigration.resources
-C:\Dev\GitHub\Text\Backend\Textiply\Textiply.api\obj\Debug\Textiply.api.csproj.GenerateResource.Cache
-C:\Dev\GitHub\Text\Backend\Textiply\Textiply.api\obj\Debug\Textiply.Api.Migrations.CreatedDataContext.resources

@@ -15,6 +15,7 @@ namespace Textiply.Api.Models
         public string UserId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        [Required]
         public string PhoneNumber { get; set; }
         public string City { get; set; }
         public string Zip { get; set; }

@@ -169,15 +169,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AudiencesController.cs" />
+    <Compile Include="Controllers\MessagesController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Infrastructure\TextiplyDataContext.cs" />
     <Compile Include="Migrations\201612232204574_InitialMigration.cs" />
     <Compile Include="Migrations\201612232204574_InitialMigration.Designer.cs">
       <DependentUpon>201612232204574_InitialMigration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201612240139113_CreatedDataContext.cs" />
-    <Compile Include="Migrations\201612240139113_CreatedDataContext.Designer.cs">
-      <DependentUpon>201612240139113_CreatedDataContext.cs</DependentUpon>
+    <Compile Include="Migrations\201612240635458_DataContextCreated.cs" />
+    <Compile Include="Migrations\201612240635458_DataContextCreated.Designer.cs">
+      <DependentUpon>201612240635458_DataContextCreated.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Audience.cs" />
@@ -192,6 +194,7 @@
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -207,8 +210,8 @@
     <EmbeddedResource Include="Migrations\201612232204574_InitialMigration.resx">
       <DependentUpon>201612232204574_InitialMigration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201612240139113_CreatedDataContext.resx">
-      <DependentUpon>201612240139113_CreatedDataContext.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201612240635458_DataContextCreated.resx">
+      <DependentUpon>201612240635458_DataContextCreated.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -12,11 +12,10 @@ namespace Textiply.Api.Models
         [Required]
         public int MessageId { get; set; }
         [Required]
-        public string UserId { get; set; }
-        [Required]
         public int AudienceId { get; set; }      
         public DateTime Created { get; set; }
         public DateTime Sent { get; set; }
+        [Required]
         public string Text { get; set; }
         public virtual User User { get; set; }
         public virtual Audience Audience { get; set; }
