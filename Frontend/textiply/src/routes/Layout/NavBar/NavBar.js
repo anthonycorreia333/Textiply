@@ -1,14 +1,19 @@
-import React, { PropTypes } from 'react'
-import {Navbar, NavItem, NavDropDown, MenuItem, Nav} from 'react-bootstrap';
+import React, { Component } from 'react'
+import {Navbar, NavItem, NavDropdown, MenuItem, Nav} from 'react-bootstrap';
+import { withRouter } from 'react-router';
+import './NavBar.css';
+import { LinkContainer } from 'react-router-bootstrap';
 
-class NavBar extends React.Component {
+
+
+class NavBar extends Component {
   render () {
     return (
       <div className="NavBar">
       <Navbar inverse collapseOnSelect>
   <Navbar.Header>
     <Navbar.Brand>
-      <a href="#">React-Bootstrap</a>
+      <p>Textiply</p>
     </Navbar.Brand>
     <Navbar.Toggle />
   </Navbar.Header>
@@ -25,8 +30,8 @@ class NavBar extends React.Component {
       </NavDropdown>
     </Nav>
     <Nav pullRight>
-      <NavItem eventKey={1} href="#">Link Right</NavItem>
-      <NavItem eventKey={2} href="#">Link Right</NavItem>
+      <LinkContainer to="/auth"><NavItem eventKey={1} href="#">Logout</NavItem></LinkContainer>
+
     </Nav>
   </Navbar.Collapse>
 </Navbar>
